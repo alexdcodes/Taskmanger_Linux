@@ -1,6 +1,5 @@
 #!/bin/bash 
 
-# This is a 'shebang' and the path to the shell you want the script to use.
 
 # This script was made by alex diker
 # This script is just for educational purposes to play around with shell scripting
@@ -27,6 +26,10 @@ fi
 read answer
 
 ps ux | less
+
+echo "Take notes of what you saw, we are going to clear the screen."
+
+clear 
 
 echo "Would you like to see all the processes on ALL user groups?"
 
