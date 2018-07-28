@@ -15,7 +15,7 @@ echo "Lets start with viewing processes running on your machine"
 echo " "
 echo " ------- "
 
-echo -n "Area you ready? (y/n)?"
+echo -n "Are you ready? (y/n)?"
 
 if [ "$answer" != "${answer#[Yy]}" ] ;then
     echo Yes
@@ -33,7 +33,7 @@ clear
 
 echo "Would you like to see all the processes on ALL user groups?"
 
-echo -n "Area you ready? (y/n)? "
+echo -n "Are you ready? (y/n)? "
 if [ "$answer" != "${answer#[Yy]}" ] ;then
     echo Yes
 else
