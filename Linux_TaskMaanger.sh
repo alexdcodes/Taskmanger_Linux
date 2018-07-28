@@ -9,12 +9,6 @@ read input_variable
 echo "You entered: $input_variable, as your OS."
 
 
-echo " "
-echo "This script will run a few commands on your Linux box,"
-echo "Lets start with viewing processes running on your machine"
-echo " "
-echo " ------- "
-
 echo -n "Are you ready? (y/n)?"
 
 if [ "$answer" != "${answer#[Yy]}" ] ;then
